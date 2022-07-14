@@ -6,11 +6,11 @@ from django.contrib.auth.forms import UserCreationForm
 from django.contrib.auth.decorators import login_required
 from django.contrib.auth.mixins import LoginRequiredMixin
 
-from .models import Game, Photo
 
 
 import uuid
 import boto3
+from .models import Game, Photo
 
 S3_BASE_URL = 'https://s3.us-east-2.amazonaws.com/'
 BUCKET = 'video-game-log'
@@ -48,8 +48,8 @@ def add_photo(request, game_id):
             photo.save()
         except:
             print("Photo did not upload")
-            return redirect('detail', game_id=game_id)
         return redirect('detail', game_id=game_id)
+        # return redirect('detail', game_id=game_id)
     # Creating class based views
 
 def signup(request):

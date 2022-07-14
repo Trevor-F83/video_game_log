@@ -1,15 +1,36 @@
 body {
-   
+    background-color: rgb(146, 146, 239);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     display: flex;
     min-height: 100vh;
     flex-direction: column;
 }
 
+.navbar {
+    background-color: rgba(230, 47, 193, 0.707);
+    color:rgb(193, 234, 136)
+}
+
+.navbar li a {
+    color: rgb(193, 234, 136)
+}
+
 main {
+    color:rgb(193, 234, 136);
     flex: 1 0 auto;
 }
 
 footer {
+   
     padding-top: 0;
     text-align: right;
+}
+
+.page-footer {
+    background-color: rgb(211, 19, 166);
+    color:rgb(193, 234, 136)
+}
+
+.add-game {
+    color:rgb(193, 234, 136)
 }

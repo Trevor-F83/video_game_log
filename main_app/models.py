@@ -26,9 +26,3 @@ class Photo(models.Model):
     def __str__(self):
         return f"Photo for game_id: {self.game_id} @{self.url}"        
 
-# games = [
-#     Game('Red Dead Redemption 2', 'Action/Adventure', 'PS4', '2018', 'fun'),
-#     Game('Battlefield 4','Shooter', 'PS4','2013', 'fun'),
-#     Game('Elite Dangerous','Space Adventure','PS4','2014', 'fun'),
-#     Game('Dirt4','Racing Sim','PS4','2017', 'fun'),
-# ]
