@@ -1,0 +1,1 @@
+web: gunicorn vodeo_game_log.wsgi
