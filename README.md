@@ -1,6 +1,6 @@
 <h1 text-align="center">Video Game Log</h1>
 
-[Click](https://video-game-log.herokuapp.com/ to travel to the log book!
+[Click](https://video-game-log.herokuapp.com) to travel to the log book!
 
 ![image](https://user-images.githubusercontent.com/103761476/179011257-587ab065-abee-4a77-ab98-2ff644e50f48.png)
 ![image](https://user-images.githubusercontent.com/103761476/179011374-f72afcb2-7c82-4f2b-9314-e701111c5f47.png)
